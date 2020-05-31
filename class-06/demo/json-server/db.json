@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "name": "shirts",
+      "_id": 1
+    },
+    {
+      "name": "hats",
+      "_id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "test",
+      "category": "shirts",
+      "description": "asdasd",
+      "price": 1.99,
+      "_id": 1
+    }
+  ]
+}
