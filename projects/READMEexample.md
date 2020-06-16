@@ -7,28 +7,47 @@
 
 ---------------------------------
 
-## We are deployed on _____
+## We are deployed on heroku
 
-[project url here]
+[DAAY-mall website](https://daay-mall.herokuapp.com/)
 
 ---------------------------------
 
 ## Web Application
 
-***[Explain your app, should be at least a paragraph. What does it do? Why should I use? Sell your product!]***
+ online platform for stores  where  there are three types of users :
 
-The web application consists of a frontend written in Razor views, HTML, CSS,
-Bootstrap, Popper, and jQuery. The backend was written in C# using ASP.NET Core 2, Entity Framework Core, and the MVC framework.
+ An admin to verify users
+ A user (store owner) can register their stores (if verified, normal users can buy from them)   
+ Normal users that can shop from different stores
+          
 
-An interface is provided to create new blog
-posts, view existing blog posts, edit existing blog posts, delete existing
-blog posts, and search by both keywords and user names. All blog posts can be
-enriched using Azure Language Services (part of Microsoft's Cognitive Services
-suite), Bing Image API, and Parallel Dots (for automated tagging of posts via
-key phrases detected within the post's body). Image enrichments can be added
-based on the overall sentiment score (a range 0.0 - 1.0 related to the mood
-of the post) and key phrases / keywords detected in the posts. Optionally, users
-can choose to opt-out of these features for privacy or data collection concerns.
+What problem or pain point does it solve? a. Keep it high level without going into too much detail. (3-4 sentences is enough)
+ We offer store owners a platform to display their products  that makes the shopping experience  easier 
+ 
+
+Minimum MVP definition.
+What is the minimum required for you to present on your demo day?
+• Authentication feature:
+o Sign in with Facebook and Google.
+o Normal signup and sign in.
+• Store registration
+o The user can add his own store to be registered and then to be verified by the admin (with the ability to shop from other stores).
+o When the store is verified the user will be the admin (owner) of his store and he can add employees (for customer service, data entry).
+o Their stores can be sub stores.
+• Shop
+o Each user will have their own cart to add items to.
+o Users can search for specific stores or products.
+o Users can chat with support agents if they have an inquiry.
+o Users can pay online.
+• Data Entry
+o Add products to the store
+• Owner
+o Register stores (create)/update store’s info/data
+o Add/update employees
+o Add/update products to the store
+o Chat with customers
+o Delete stores
 
 ---------------------------------
 
@@ -38,6 +57,7 @@ Microsoft Visual Studio
 
 - Node.js
 - Express
+- Socket.io
 
 ---------------------------------
 
@@ -52,7 +72,7 @@ git clone https://github.com/YourRepo/YourProject.git
 Once downloaded, you can either use the dotnet CLI utilities or Visual Studio 2017 (or greater) to build the web application.
 
 ```
-cd YourRepo/YourProject
+cd DAAY-mall
 `npm i`
 ```
 
@@ -111,10 +131,10 @@ npm start
 
 ## Authors
 
-Albus Dumbbledore
-Igor Karkaroff
-Minerva McGonagall
-Leta Lestrange
-Gellert Grindelwald
+Yazan Alaiwah
+Diana Al azzam
+Ahmed Abu samaan
+Anolla Haddad
+
 
 ------------------------------
